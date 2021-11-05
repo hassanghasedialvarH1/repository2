@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  -->
+    <style name="btn_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textColor">#F8F5F5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--
+     <item name="android:background">@color/black</item>
+     <item name="android:height">70dp</item>
+     <item name="android:width">70dp</item>
+     -->
+</resources>

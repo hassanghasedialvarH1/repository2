@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:gravity="center"
+    android:padding="30dp"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/edt_dialog_FirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="FirstName"
+        android:background="@color/white"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edt_dialog_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edt_dialog_FirstName"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="lastName"
+        android:inputType="textPersonName"
+        android:background="@color/design_default_color_error"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/my_dialog_btn_add"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shap_button"
+        android:text="ADD" />
+</LinearLayout>

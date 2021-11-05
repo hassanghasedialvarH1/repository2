@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.touo.myapplication14">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tasvir"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication14">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+      <!--  <activity android:name=".h"/>
+        <activity android:name=".hsn"/>  -->
+        <activity android:name=".hhssn"/>
+        <activity android:name=".actv_1_TextView"/>
+        <activity android:name=".actv_2_EditText"/>
+        <activity android:name=".actv_3_ImageView"/>
+        <activity android:name=".actv_4_CheckBox"/>
+
+        <activity android:name=".h"
+            android:parentActivityName=".MainActivity">
+            <!--             اگر از API سطح 15 و پایین تر پشتیبانی می کنید ، برچسب متا داده مورد نیاز است
+            The meta-data tag is required if you support API level 15 and lower  -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".hsn"
+            android:parentActivityName=".MainActivity">
+            <!--             اگر از API سطح 15 و پایین تر پشتیبانی می کنید ، برچسب متا داده مورد نیاز است
+            The meta-data tag is required if you support API level 15 and lower  -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

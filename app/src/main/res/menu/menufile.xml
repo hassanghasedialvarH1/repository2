@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/file"
+        android:title="@string/file" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/calculator"
+                android:title="@string/calculator" />
+            <item android:id="@+id/fil_1"
+                android:title="@string/fil_1" />
+            <item android:id="@+id/fil_2"
+                android:title="@string/fil_2" />
+            <item android:id="@+id/fil_3"
+                android:title="@string/fil_3" />
+            <item android:id="@+id/fil_4"
+                android:title="@string/fil_4" />
+            <item android:id="@+id/fil_5"
+                android:title="@string/fil_5" />
+            <item android:id="@+id/fil_6"
+                android:title="@string/fil_6" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/edit"
+        android:title="@string/edit" >
+
+        <menu>
+            <item android:id="@+id/cut"
+                android:title="@string/cut" />
+            <item android:id="@+id/Copy"
+                android:title="@string/Copy" />
+            <item android:id="@+id/Paste"
+                android:title="@string/Paste" />
+            <item android:id="@+id/Delete"
+                android:title="@string/Delete" />
+            <item android:id="@+id/Mow"
+                android:title="@string/Mow" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/new_name"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/new_names"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/help" />
+
+</menu>
